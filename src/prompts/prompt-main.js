@@ -1,9 +1,11 @@
+import chalk from "chalk"
+
 const mainPrompt =[
     {
         name: "select",
-        description: "Escolha a ferramenta (1 - Gerar QRCODE) ou (2 - Gerar senha)",
+        description: chalk.green.bold("Escolha a ferramenta (1 - Gerar QRCODE) ou (2 - Gerar senha)"),
         pattern: /^[1-2]$/,
-        message: "Escolha apenas entre 1 e 2",
+        message: chalk.red.italic("Escolha apenas entre 1 e 2"),
         required: true,
         
     }
