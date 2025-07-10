@@ -2,7 +2,7 @@ import prompt from 'prompt'
 
 import mainPrompt from './prompts/prompt-main.js'
 import createQRCode from './prompts/qr-code/create.js'
-import createPassword from './prompts/password/create.js'
+import createPassword from './prompts/servicos/password/create.js'
 
 
 async function main(){
